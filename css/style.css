@@ -1,0 +1,177 @@
+/* GLOBAL STYLES */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#main {	
+	background-color: rgba(0,0,0,255);
+	color: white;
+}
+
+#header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin: 0;
+	height: 10rem;
+	background-color: rgba(0,0,0,255);
+}
+
+#title {
+  	font-family: "Cormorant Garamond", serif;
+  	font-weight: bolder;
+  	font-size: 5rem;
+  	text-align: center;
+}
+
+#sub-title {
+  	font-family: "Montserrat", sans-serif;
+  	color: #F4DD08;
+ 	font: lighter;
+  	font-size: 1rem;
+  	text-align: center;
+}
+
+#img-div {
+	width: 85%; 
+	margin: auto auto;
+	background-color: #F5F5F5;
+}
+
+#image {
+	margin-top: 3%;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	box-shadow: 0 1rem 3rem rgba(0,0,0,0.5);
+	width: 90%;
+} 
+
+hr {
+	margin: auto auto;
+	margin-top: 1rem;
+	width: 75%;
+}
+
+#img-caption {
+	margin-top: 1rem;
+	padding-bottom: 1rem;
+	color: black;
+	text-shadow: 1px 1px 2px black;
+	text-align: center;
+}
+
+abbr[title="National Security Agency"] {
+	cursor: pointer !important;
+	text-decoration: none !important;
+}
+
+
+/* Tribute Info */
+#tribute-info {
+	margin: auto auto;
+	margin-top: 1rem;
+	width: 70%;
+}
+
+#title-tribute {
+	margin-top: 5rem;
+	margin-bottom: 2rem;
+  	font-family: "Cormorant Garamond", serif;
+  	color: #F4DD08;
+  	font-weight: bolder;
+  	font-size: 2.5rem;
+  	text-align: center;
+}
+
+strong {
+	color: #F4DD08;
+}
+
+li {
+	margin-top: 1rem;
+	font-size: 1rem;
+	font-family: "Montserrat", sans-serif;
+	text-align: justify;
+  	text-justify: inter-word;
+}
+
+#video {
+	position: relative;
+	margin: auto auto;
+	margin-top: 3rem;
+ 	overflow: hidden;
+  	width: 80%;
+  	padding-top: 56.25%;
+}
+
+iframe {
+	position: absolute;
+  	top: 0;
+  	left: 0;
+  	bottom: 0;
+  	right: 0;
+  	width: 100%;
+  	height: 100%;
+}
+
+.tribute-link-paragraph {
+	margin-top: 1rem;
+	padding-bottom: 2rem;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+#tribute-link {
+	text-decoration: none;
+	color: #F4DD08;
+}
+
+#tribute-link:hover {
+	color: white;
+}
+
+
+/* FOOTER */
+.footer {
+  	width: 100%;
+    height: 10vh;
+    background-color: #181818;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    color: #afafaf;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 1024px) {
+	#title {
+		font-size: 3.5rem;
+	}
+
+	#sub-title {
+		font-size: 0.8rem;
+	}
+
+	#img-caption {
+		font-size: 0.8rem;
+	}
+
+	.tribute-link-paragraph {
+		font-size: 1rem;
+	}
+
+	.copyright {
+		font-size: 1.2rem;
+	}
+}
